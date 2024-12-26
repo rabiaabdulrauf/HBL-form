@@ -1,0 +1,775 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.pre-header {
+  /* position: fixed; */
+  display: flex;
+  background-color: white;
+  align-items: center;
+  padding: 0 30vh;
+  height: 5vh;
+  justify-content: space-between;
+  border-bottom: 1px solid #c3c4c5;
+}
+.pre-header-types-wrapper {
+  display: flex;
+}
+.pre-header-type1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* border: 1px solid black; */
+  width: 5vw;
+  height: 2.5vh;
+  background: white;
+}
+.pre-header-type1 a {
+  text-align: center;
+  text-decoration: none;
+  color: #197056;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.pre-header-type2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-left: 1px solid #c3c4c5;
+  width: 5vw;
+  height: 2.5vh;
+  background: white;
+}
+.pre-header-type2 a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 11px;
+  font-weight: 600;
+}
+.pre-header-type2 a:hover {
+  color: #197056;
+}
+.pre-header-type3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-left: 1px solid #c3c4c5;
+  width: 5vw;
+  height: 2.5vh;
+  background: white;
+}
+.pre-header-type3 a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 11px;
+  font-weight: 600;
+}
+.pre-header-type3 a:hover {
+  color: #197056;
+}
+.pre-header-type4 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-left: 1px solid #c3c4c5;
+  width: 5vw;
+  height: 2.5vh;
+  background: white;
+}
+.pre-header-type4 a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 11px;
+  font-weight: 600;
+}
+.pre-header-type4 a:hover {
+  color: #197056;
+}
+/* ---------------------------------------------pre header desc-------------------------------------  */
+.pre-header-desc {
+  display: flex;
+  gap: 2vh;
+}
+.pre-header-desc a {
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+  font-weight: 400;
+}
+/* -----------------------------pre-header-icon-------------------------------------  */
+.pre-header-icon {
+  display: flex;
+}
+.header-moon-icon {
+  width: 2vw;
+  text-align: center;
+  border-right: 1px solid #c3c4c5;
+}
+.header-sun-icon {
+  width: 2vw;
+  text-align: center;
+  border-right: 1px solid #c3c4c5;
+}
+.header-flag-icon select {
+  width: 3vw;
+}
+/* ------------------------------HEADER----------------------------- */
+.header-main {
+  /* position: fixed; */
+  background-color: white;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  padding: 0 30vh;
+  justify-content: space-between;
+  border-bottom: 1px solid #c3c4c5;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+  padding-left: 1.5vh;
+  height: 6vh;
+  width: 13vw;
+}
+.logo {
+  height: 3vh;
+  width: 5vw;
+}
+.logo img {
+  height: 100%;
+  width: 100%;
+}
+.header-desc {
+  display: flex;
+  gap: 2vh;
+}
+.header-desc a {
+  text-decoration: none;
+  font-size: 0.8vw;
+  color: black;
+  font-weight: 600;
+}
+.header-icons {
+  display: flex;
+  align-items: center;
+}
+.h-mic {
+  text-align: center;
+  width: 4vw;
+  height: 100%;
+  font-size: 1.8vw;
+  font-weight: 100;
+  color: #b1b1b1;
+  border-right: 1px solid #c3c4c5;
+}
+.h-mic:hover {
+  color: #197056;
+}
+.h-call {
+  text-align: center;
+  width: 4vw;
+  height: 100%;
+  color: #b1b1b1;
+
+  font-size: 1.8vw;
+  border-right: 1px solid #c3c4c5;
+}
+
+.h-call:hover {
+  color: #197056;
+}
+.h-srch {
+  text-align: center;
+  color: #b1b1b1;
+
+  width: 4vw;
+  height: 100%;
+  font-size: 1.7vw;
+}
+
+.h-srch:hover {
+  color: #197056;
+}
+.header-icons button {
+  width: 7vw;
+  height: 5vh;
+  font-size: 0.8vw;
+  color: white;
+  border: none;
+  background-color: #197056;
+  font-weight: 500;
+}
+.header-icons button:hover {
+  background-color: white;
+  color: #197056;
+  border: 1px solid #197056;
+}
+/* ---------------------------------------carousel------------------------------------ */
+.carousel-wrapper {
+  height: 75vh;
+  }
+/* -------------------------------------icon-wrapper---------------------------- */
+.hbl-icon-wrapper {
+  height: 15vh;
+  padding: 0 28vh;
+  display: flex;
+  align-items: center;
+  gap: 1vh;
+}
+.hbl-icon {
+  border: 1px solid #c3c4c5;
+  padding-left: 1vh;
+  padding-right: 0.5vh;
+  padding-bottom: 1vh;
+  justify-content: space-between;
+  height: 10vh;
+  width: 20vw;
+  display: flex;
+  /* align-items: center; */
+  overflow: hidden;
+}
+.hbl-icon:hover {
+  background-color: #197056;
+  transition: 0.6s ease;
+  color: white;
+}
+.icon-title {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.icon-title span {
+  line-height: 2vh;
+}
+.icon-logo {
+  overflow: hidden;
+  height: 6vh;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.i-logo {
+  height: 9vh;
+  width: 10vh;
+}
+.i-logo img {
+  height: 100%;
+  width: 100%;
+}
+/* -----------------------------------------banking---------------------------------------- */
+.banking-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  padding: 15vh 35vh;
+}
+.banking-title {
+  width: 75vw;
+  height: 35vh;
+}
+.banking-title h1 {
+  text-align: center;
+  font-size: 3.7vw;
+  font-weight: 300;
+}
+.banking-buttons {
+  display: flex;
+  gap: 4vh;
+  height: 7vh;
+  border-bottom: 1px solid #c3c4c5;
+}
+.banking-buttons a {
+  text-decoration: none;
+  color: black;
+  font-size: 1vw;
+  font-weight: 700;
+}
+#btn1 {
+  color: #197056;
+}
+.banking-image-desc {
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  width: 100%;
+}
+.desc-img {
+  height: 50vh;
+  width: 35vw;
+}
+.desc-img img {
+  height: 100%;
+  width: 100%;
+}
+.banking-desc {
+  padding-top: 5vh;
+  padding-left: 10vh;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 30vw;
+}
+.desc-title {
+  border-bottom: 1px solid #c3c4c5;
+  height: auto;
+  width: 11vw;
+  text-align: start;
+}
+.desc-title span {
+  color: #197056;
+  font-weight: 700;
+  font-size: 1.8vw;
+}
+.banking-desc h3 {
+  width: 16vw;
+  font-weight: 300;
+  text-align: start;
+  font-size: 2.7vw;
+}
+.banking-desc button {
+  margin-top: 3vh;
+  width: 10vw;
+  height: 5vh;
+  font-size: 0.8vw;
+  background-color: #197056;
+  text-align: center;
+  border: none;
+  color: white;
+}
+.banking-desc button:hover {
+  background-color: white;
+  color: #197056;
+  border: 1px solid #197056;
+  transition: 0.5s ease;
+}
+
+/* <!-- --------------------------------------Discounts-------------------------------------------------- --> */
+.discount-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vh;
+  height: 95vh;
+  padding: 0 35vh;
+}
+.disc-wrap-title span {
+  text-align: center;
+  font-size: 3.7vw;
+  font-weight: 300;
+}
+.disc-desc-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10vh;
+}
+.disc-decs h3 {
+  width: 16vw;
+  font-weight: 300;
+  text-align: start;
+  font-size: 2.5vw;
+}
+.disc-decs button {
+  margin-top: 2vh;
+  width: 10vw;
+  height: 5vh;
+  font-size: 0.8vw;
+  background-color: #197056;
+  text-align: center;
+  border: none;
+  color: white;
+}
+.disc-decs button:hover {
+  background-color: white;
+  color: #197056;
+  border: 1px solid #197056;
+  transition: 0.5s ease;
+}
+.disc-images {
+  display: flex;
+  gap: 4vh;
+  width: 50vw;
+  height: 75vh;
+  border-bottom: 5px solid #197056;
+}
+.desc-img1 {
+  background-color: #197056;
+  height: 70vh;
+  width: 50%;
+  overflow: hidden;
+}
+.desc-img2 {
+  background-color: #197056;
+  height: 70vh;
+  width: 50%;
+  overflow: hidden;
+}
+.desc-img1-clone {
+  background-image: url("assets/okra-new-1.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 5vh 3vh;
+}
+.desc-img1-clone span {
+  font-size: 2vw;
+}
+.desc-img1-clone p {
+  font-size: 1vw;
+  line-height: 1vh;
+}
+.desc-img2-clone {
+  background-image: url("assets/okra-2.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 5vh 3vh;
+}
+.desc-img2-clone span {
+  font-size: 2vw;
+}
+.desc-img2-clone p {
+  font-size: 1vw;
+  line-height: 1vh;
+}
+.desc-img1-clone:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.desc-img2-clone:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+/* ----------------------------------------Explore------------------------------ */
+.explore-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+  height: auto;
+  padding: 10vh 35vh;
+}
+.explore-title span {
+  text-align: center;
+  font-size: 3.7vw;
+  font-weight: 300;
+}
+.explore-media {
+  display: flex;
+  gap: 2vh;
+  height: 60vh;
+  width: 100%;
+}
+.exp-media1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  height: 100%;
+  width: 50%;
+}
+.exp1-1 {
+  gap: 2vh;
+  display: flex;
+  width: 100%;
+  height: 50%;
+}
+.exp1-1-1 {
+  overflow: hidden;
+  height: 100%;
+  width: 50%;
+}
+.exp111-img {
+  padding: 5vh 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-image: url("assets/exp1.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.exp111-img:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+.exp1-title {
+  text-align: center;
+}
+.exp1-title span {
+  font-size: 1.6vw;
+}
+.exp1-btn button {
+  width: 7vw;
+  height: 5vh;
+  font-size: 0.8vw;
+  border: none;
+  background-color: #197056;
+  color: white;
+}
+.exp1-btn button:hover {
+  background-color: white;
+  color: #197056;
+  border: 1px solid #197056;
+}
+.exp1-1-2 {
+  overflow: hidden;
+  background-color: aliceblue;
+  height: 100%;
+  width: 50%;
+}
+.exp112-img {
+  padding: 5vh 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-image: url("assets/exp2.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.exp112-img:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+.exp2-title {
+  text-align: center;
+}
+.exp2-title span {
+  color: white;
+  font-size: 1.6vw;
+}
+.exp2-title p {
+  color: white;
+}
+.exp2-btn button {
+  width: 7vw;
+  height: 5vh;
+  font-size: 0.8vw;
+  border: none;
+  background-color: #197056;
+  color: white;
+}
+.exp2-btn button:hover {
+  background-color: white;
+  color: #197056;
+  border: 1px solid #197056;
+}
+.exp1-2 {
+  overflow: hidden;
+  width: 100%;
+  height: 50%;
+}
+.exp12-img {
+  padding: 5vh 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-image: url("assets/exp3.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.exp12-img:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+.exp3-title {
+  text-align: center;
+}
+.exp3-title span {
+  font-size: 1.6vw;
+}
+
+.exp3-btn button {
+  width: 7vw;
+  height: 5vh;
+  font-size: 0.8vw;
+  border: none;
+  background-color: #197056;
+  color: white;
+}
+.exp3-btn button:hover {
+  background-color: white;
+  color: #197056;
+  border: 1px solid #197056;
+}
+.exp-media2 {
+  display: flex;
+  gap: 2vh;
+  height: 100%;
+  width: 50%;
+}
+.exp2-1 {
+  overflow: hidden;
+  background-color: #c3c4c5;
+  height: 100%;
+  width: 50%;
+}
+.exp21-img {
+  
+
+  padding: 5vh 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-image: url("assets/exp4.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.exp21-img:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+.exp4-title {
+  text-align: center;
+}
+.exp4-title span {
+  font-size: 1.6vw;
+}
+
+.exp4-btn button {
+  width: 7vw;
+  height: 5vh;
+  font-size: 0.8vw;
+  border: none;
+  background-color: #197056;
+  color: white;
+}
+.exp4-btn button:hover {
+  background-color: white;
+  color: #197056;
+  border: 1px solid #197056;
+}
+
+.exp2-2 {
+  overflow: hidden;
+  background-color: #c3c4c5;
+  height: 100%;
+  width: 50%;
+}
+.exp22-img {
+  
+
+  padding: 5vh 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-image: url("assets/exp5.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.exp22-img:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+.exp5-title {
+  text-align: center;
+}
+.exp5-title span {
+  font-size: 1.6vw;
+}
+
+.exp5-btn button {
+  width: 7vw;
+  height: 5vh;
+  font-size: 0.8vw;
+  border: none;
+  background-color: #197056;
+  color: white;
+}
+.exp5-btn button:hover {
+  background-color: white;
+  color: #197056;
+  border: 1px solid #197056;
+}
+/* ----------------------------------footer------------------------------- */
+.footer-wrapper{
+  display: flex;
+  justify-content: space-between;
+  height: 55vh;
+  padding: 7vh 30vh ;
+  border-top:1px solid #b1b1b1;
+}
+.footer-desc{
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  width: 10vw;
+}
+.footer-desc-title h5{
+  color: #197056;
+}
+.abt-links{
+  display: flex;
+  flex-direction: column;
+  gap: .8vh;
+}
+.abt-links a{
+  text-decoration: none ;
+  color: black;
+}
+.abt-links a:hover{
+  color: #197056;
+}
+.prefooter{
+  border-top: 1px solid #c3c4c5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vh 30vh;
+}
+.prefooterlinks{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vh;
+
+}
+.prefooterlinks a{
+  text-decoration: none;
+  color: black;
+  font-size: 1vw;
+}
+.prefootercopyright span{
+  font-size: 1vw;
+}
