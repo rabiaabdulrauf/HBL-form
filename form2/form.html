@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+TZ+Guides&display=swap" rel="stylesheet">
+    <title>AOF Verification</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <!-- logo -->
+    <img
+      src="image/download-removebg-preview.png"
+      alt="logo"
+      height="100px"
+      width="100px"
+    />
+    <hr>
+    <!-- container -->
+    <div class="container">
+        <!-- h6 -->
+      <h6>Additional Information</h6>
+      <!-- paragraph -->
+      <p>please fill in all mendatory fields marked with an asterik (*)</p>
+      <!-- form -->
+      <form>
+        <!-- input -->
+        <div class="input">
+          <label>Phone Number *</label><br />
+          <input type="tel" required />
+        </div>
+        <!-- account -->
+        <div class="account">
+          <label>Purpose of this Account *</label><br />
+          <input type="text" name="hidden" required/>
+          <select name="select">
+            <option value="0">select purpose for opening your account *</option>
+            <option value="1">Deposite Money</option>
+            <option value="2">Receive Money</option>
+            <option value="3">Make payments</option>
+            <option value="4">Track Spending</option>
+          </select>
+        </div>
+        <!-- owner -->
+        <div class="owner">
+          <label>Owner of this account *</label><br />
+          <input type="text" required />
+            <select>
+                <option value="0">please select benificial owner *</option>
+                <option value="1">self</option>
+                <option value="2">other</option>
+            </select>
+        </div>
+        <!-- profession -->
+        <div class="pro">
+          <label>Profession *</label><br />
+          <input type="text" name="hidden" required />
+          <select>
+            <option value="1">please select your Profession from the list</option>
+            <option value="2">Freelancer</option>
+            <option value="3">Foreigon account</option>
+            <option value="4">freedom account</option>
+          </select>
+        </div>
+        <!-- zip code -->
+        <div class="zip">
+          <label>Zip-Code *</label><br />
+          <input type="text" required />
+        </div>
+        <!-- region -->
+        <div class="region">
+          <label>Region *</label><br />
+          <input type="text" required />
+          <div class="r">
+          <select>
+            <option value="1"> please select your region from the list*</option>
+            <option value="2">Punjab</option>
+            <option value="3">Sindhi</option>
+            <option value="4">KPK</option>
+            <option value="5">Balochistan</option>
+            <option value="6">Gilgit Baltistan</option>
+          </select>
+        </div>
+        </div>
+        <!-- education -->
+        <div class="zip">
+            <label>Education *</label><br />
+            <input type="text" required />
+            <select>
+                <option value="1"> please select your education *</option>
+                <option value="2">primary</option>
+                <option value="3">secondary</option>
+                <option value="4">higher secondary</option>
+                <option value="5">graduation</option>
+              </select>
+          </div>
+          <!-- current living city -->
+          <div class="owner">
+            <label>Current living city *</label><br />
+            <input type="text" required />
+              <select>
+                  <option value="0">please select  your current city *</option>
+                  <option value="1">Lahore</option>
+                  <option value="2">Islamabad</option>
+                  <option value="3">Karachi</option>
+                  <option value="4">Quetta</option>
+                  <option value="5">Peshawar</option>
+                  <option value="6">Multan</option>
+              </select>
+          </div>
+          <!-- country -->
+          <div class="pro">
+            <label>Country *</label><br />
+            <input type="text" name="hidden" required />
+            <select>
+              <option value="1">please select your country from the list</option>
+              <option value="2">Pakistan</option>
+              <option value="3">United Arab Emirates</option>
+              <option value="4">Bahrain</option>
+              <option value="5">China</option>
+              <option value="6">United Kingdom</option>
+              <option value="7">Canada</option>
+              <option value="8">Austrailia</option>
+            </select>
+          </div>
+          <!-- buttons -->
+          <button>Back</button>
+          <button class="btn">Next</button> 
+      </form>
+    </div>
+</body>
+</html>

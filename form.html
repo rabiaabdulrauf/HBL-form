@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+TZ+Guides&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="form.css" />
+    <title>AOF Verification</title>
+  </head>
+  <body>
+    <!-- logo -->
+    <img
+      src="image/download-removebg-preview.png"
+      alt="logo"
+      height="100px"
+      width="100px"
+    />
+    <hr>
+    <!-- contianer -->
+    <div class="container">
+      <!-- h3 -->
+      <h3>Welcome to</h3>
+      <!-- h6 -->
+      <h6>hbl online digital account</h6>
+      <!-- span -->
+      <span>application</span>
+      <!-- h5 -->
+      <h5>Let's Get To Know You Better</h5>
+      <!-- paragraph -->
+      <p>(Please enter your information as per CNIC records)</p>
+      <p>please fill in all mendatory fields marked with an asterik (*)</p>
+      <!-- form -->
+      <form>
+        <!-- input -->
+        <div class="input">
+          <label>Full Name as per CNIC *</label><br />
+          <input type="text" required />
+        </div>
+        <!-- gender -->
+        <div class="gender">
+          <label>Gender *</label><br />
+          <input type="text" name="hidden" required/>
+          <select name="select">
+            <option value="male">male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+        <!-- date of birth -->
+        <div class="DOB">
+          <label>Date of Birth *</label><br />
+          <input type="date" required />
+        </div>
+        <!-- city of birth -->
+        <div class="COB">
+          <label>City of Birth *</label><br />
+          <input type="text" name="hidden" required />
+          <select>
+            <option value="1">Lahore</option>
+            <option value="2">Islamabad</option>
+            <option value="3">Karachi</option>
+            <option value="4">Multan</option>
+            <option value="5">Peshawar</option>
+            <option value="6">Quetta</option>
+            <option value="7">Faisalabad</option>
+            <option value="8">Sialkot</option>
+            <option value="9">Sargodha</option>
+            <option value="9">Gujranwala</option>
+          </select>
+        </div>
+        <!-- mother -->
+        <div class="mother">
+          <label>Mother name *</label><br />
+          <input type="text" required />
+        </div>
+        <!-- father -->
+        <div class="father">
+          <label>Father/Husband name as per CNIC *</label><br />
+          <input type="text" required />
+        </div>
+        <!-- kin relative -->
+        <div class="mother">
+          <label>Next of KIN full  name *</label><br />
+          <p class="para">*choose relative such as wife,son,brother, etc*</p>
+          <input type="text" required />
+        </div>
+        <!-- kin relative no -->
+        <div class="father">
+          <label>Next of KIN mobile number *</label><br />
+          <input type="text" required />
+        </div>
+        <!-- nationallity -->
+        <div class="Nationality">
+            <label>Do You Have Dual Nationality? *</label><br />
+            <input type="text" name="hidden" required />
+            <select>
+              <option value="1">Yes</option>
+              <option value="2">No</option>
+            </select>
+          </div>
+          <!-- residenecy -->
+          <div class="residency">
+            <label class="rlable">do you hold tax residency of any other country/jurisdiction other than pakistan and/or united states</label>
+            <input name="hidden">
+            <div class="country">
+            <select>
+                <option value="1">Yes</option>
+                <option value="2">No</option>
+              </select>
+            </div>
+          </div>
+          <!-- button -->
+          <button>Back</button>
+          <button class="btn"><a href="C:\Users\LENOVO\Desktop\bank form\form2\form.html">Next</a></button>
+      </form>
+    </div>
+  </body>
+</html>
