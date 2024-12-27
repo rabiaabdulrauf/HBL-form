@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+img {
+    margin: -15px 0 0 60px;
+}
+hr{
+    margin-top: -18px;
+}
+.main{
+    display: flex;
+    flex: row;
+    margin-top: 30px;
+}
+.left-input{
+    height: 680px;
+    width: 300px;
+    margin-left: 20em;
+}
+input{
+    height: 35px;
+    width: 280px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 7px;
+   text-align: center;
+}
+.right-input{
+    height: 620px;
+    width: 300px; 
+}
+label{
+    padding-left: 70px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+.Name label{
+    padding-left: 110px;
+}
+.Fname label{
+    padding-left: 90px;
+}
+.Mname label{
+    padding-left: 90px;
+}
+.Kname label{
+    padding-left: 80px;
+}
+.Dname label{
+    padding-left: 90px;
+}
+.Pname label{
+    padding-left: 100px;
+}
+.account label{
+    padding-left: 70px;
+}
+.num label{
+    padding-left: 80px;
+}
+.zip label{
+    padding-left: 110px;
+}
+.btn1{
+    margin-left: -21em;
+}
+.btn{
+    margin-top: -1em;
+}

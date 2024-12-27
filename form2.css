@@ -39,7 +39,7 @@ input{
     width: 280px;
     border-radius: 10px;
     border: 1px solid black;
-    margin-top: 10px;
+    margin-top: 7px;
    text-align: center;
 
 }
@@ -58,7 +58,7 @@ select option:active{
     margin-left: 10px;
 }
 .account select{
-    margin-left: -267px;
+    margin-left: -202px;
     border: none;
     font-size:11.5px;
     color: grey;
@@ -73,7 +73,7 @@ select option:active{
     margin: -65px 0 0 300px;
 }
 .owner select{
-    margin-left: -236px;
+    margin-left: -192px;
     border: none;
     font-size: 11.5px;
     color: grey;
@@ -87,7 +87,7 @@ select option:active{
 .pro select{
     color: grey;
     padding-left: 2vh ;
-     margin-left: -285px;
+     margin-left: -208px;
      font-size: 11.5px;
      border: none;
 }
@@ -102,7 +102,7 @@ select option:active{
     margin-left: 10px;
 }
 .zip select{
-    margin-left: -250px;
+    margin-left: -197px;
     font-size: 11.5px;
     border: none;
     color: grey;
@@ -118,7 +118,7 @@ select option:active{
     border: none;
 }
 .region select{
-    margin: -20px 0 0 18px;
+    margin: -20px 0 0 90px;
     border: none;
     font-size: 11.5px;
     color: grey;

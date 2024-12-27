@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AOF Confirmation</title>
+    <link rel="stylesheet" href="input.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+TZ+Guides&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <img
+      src="assets/download-removebg-preview.png"
+      alt="logo"
+      height="100px"
+      width="100px"
+    />
+    <hr />
+    <div class="main">
+      <div class="left-input">
+        <div class="name">
+          <label>Name as per CNIC</label><br />
+          <input type="text" id="cnic" readonly />
+        </div>
+        <div class="Dname">
+          <label>Date of Birth</label>
+          <input type="text" id="dob" readonly />
+        </div>
+        <div class="Name">
+          <label>Gender</label><br />
+          <input type="text" id="gen" readonly />
+        </div>
+        <div class="Mname">
+          <label>Mother Name</label><br />
+          <input type="text" id="mn" readonly />
+        </div>
+        <div class="Kname">
+          <label>Kin Full Name</label><br />
+          <input type="text" id="kfn" readonly />
+        </div>
+        <div class="name">
+          <label>Dual Nationality?</label><br />
+          <input type="text" id="dn" readonly />
+        </div>
+        <div class="account">
+          <label>Purpose of account</label><br />
+          <input type="text" id="pof" readonly />
+        </div>
+        <div class="Name">
+          <label>Region</label><br />
+          <input type="text" id="reg" readonly />
+        </div>
+        <div class="Name">
+          <label>Education</label><br />
+          <input type="text" id="edu" readonly />
+        </div>
+      </div>
+      <div class="right-input">
+        <div class="num">
+          <label>Phone Number</label><br />
+          <input type="number" id="phone" readonly />
+        </div>
+        <div class="Dname">
+          <label>City of Birth</label>
+          <input id="cb" readonly />
+        </div>
+        <div class="Name">
+          <label>Country</label><br />
+          <input type="text" id="cntry" readonly />
+        </div>
+        <div class="Fname">
+          <label>Father name</label><br />
+          <input type="text" id="fathern" readonly />
+        </div>
+        <div class="name">
+          <label>Kin Moblie Number</label><br />
+          <input type="text" id="kmn" readonly />
+        </div>
+        <div class="Pname">
+          <label>Profession</label><br />
+          <input type="text" id="prof" readonly />
+        </div>
+        <div class="account">
+          <label>Owner of account</label><br />
+          <input type="text" id="ooa" readonly />
+        </div>
+        <div class="zip">
+          <label>Zip code</label><br />
+          <input type="text" id="zc" readonly />
+        </div>
+        <div class="name">
+          <label>Current living city</label><br />
+          <input type="text" id="clc" readonly />
+        </div>
+        <div class="btn">
+        <button onclick="document.location='form.html'" class="btn1">Edit</button>
+        <button onclick="callAlert();">Confirm</button></div>
+        <script type="text/javascript">
+          function callAlert() {
+            swal({
+              title: "Congratulations!",
+              text: "Your information required for Account has been submitted!",
+              timer: 2000,
+            });
+          }
+        </script>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
+    integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="result.js"></script>
+</html>

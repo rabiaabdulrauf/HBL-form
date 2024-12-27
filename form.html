@@ -11,7 +11,7 @@
   <body>
     <!-- logo -->
     <img
-      src="image/download-removebg-preview.png"
+      src="c:\Users\LENOVO\Desktop\bank form\download-removebg-preview.png"
       alt="logo"
       height="100px"
       width="100px"
@@ -35,13 +35,13 @@
         <!-- input -->
         <div class="input">
           <label>Full Name as per CNIC *</label><br />
-          <input type="text" required />
+          <input type="text" id="CNIC" required />
         </div>
         <!-- gender -->
         <div class="gender">
           <label>Gender *</label><br />
-          <input type="text" name="hidden" required/>
-          <select name="select">
+          <input type="text" name="hidden" readonly>
+          <select name="select" id="gen">
             <option value="male">male</option>
             <option value="female">Female</option>
           </select>
@@ -49,53 +49,53 @@
         <!-- date of birth -->
         <div class="DOB">
           <label>Date of Birth *</label><br />
-          <input type="date" required />
+          <input type="date" id="date" required />
         </div>
         <!-- city of birth -->
         <div class="COB">
           <label>City of Birth *</label><br />
-          <input type="text" name="hidden" required />
-          <select>
-            <option value="1">Lahore</option>
-            <option value="2">Islamabad</option>
-            <option value="3">Karachi</option>
-            <option value="4">Multan</option>
-            <option value="5">Peshawar</option>
-            <option value="6">Quetta</option>
-            <option value="7">Faisalabad</option>
-            <option value="8">Sialkot</option>
-            <option value="9">Sargodha</option>
-            <option value="9">Gujranwala</option>
+          <input type="text" name="hidden" readonly required />
+          <select id="city">
+            <option value="Lahore">Lahore</option>
+            <option value="Islamabad">Islamabad</option>
+            <option value="Karachi">Karachi</option>
+            <option value="Multan">Multan</option>
+            <option value="Peshawar">Peshawar</option>
+            <option value="Quetta">Quetta</option>
+            <option value="Faisalabad">Faisalabad</option>
+            <option value="Sialkot">Sialkot</option>
+            <option value="Sargodha">Sargodha</option>
+            <option value="Gujranwala">Gujranwala</option>
           </select>
         </div>
         <!-- mother -->
         <div class="mother">
           <label>Mother name *</label><br />
-          <input type="text" required />
+          <input type="text" required id="mothername" />
         </div>
         <!-- father -->
         <div class="father">
           <label>Father/Husband name as per CNIC *</label><br />
-          <input type="text" required />
+          <input type="text" required id="father"/>
         </div>
         <!-- kin relative -->
         <div class="mother">
           <label>Next of KIN full  name *</label><br />
           <p class="para">*choose relative such as wife,son,brother, etc*</p>
-          <input type="text" required />
+          <input type="text" required id="kinName"/>
         </div>
         <!-- kin relative no -->
         <div class="father">
           <label>Next of KIN mobile number *</label><br />
-          <input type="text" required />
+          <input type="text" id="kin-num" required />
         </div>
         <!-- nationallity -->
         <div class="Nationality">
             <label>Do You Have Dual Nationality? *</label><br />
-            <input type="text" name="hidden" required />
-            <select>
-              <option value="1">Yes</option>
-              <option value="2">No</option>
+            <input type="text" name="hidden"  required />
+            <select id="nationality">
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
             </select>
           </div>
           <!-- residenecy -->
@@ -103,16 +103,18 @@
             <label class="rlable">do you hold tax residency of any other country/jurisdiction other than pakistan and/or united states</label>
             <input name="hidden">
             <div class="country">
-            <select>
-                <option value="1">Yes</option>
-                <option value="2">No</option>
+            <select id="tax">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
               </select>
             </div>
           </div>
           <!-- button -->
-          <button>Back</button>
-          <button class="btn"><a href="C:\Users\LENOVO\Desktop\bank form\form2\form.html">Next</a></button>
+          <button onclick="document.location='index.html'">Back</button>
+          <button class="btn" onclick="document.location='form2.html',displayInfo()" >Next</button>
+
       </form>
     </div>
   </body>
+  <script src="script.js"></script>
 </html>

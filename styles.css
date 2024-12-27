@@ -247,6 +247,7 @@
   align-items: center;
 }
 .icon-title span {
+  font-size: 1.1vw;
   line-height: 2vh;
 }
 .icon-logo {
@@ -738,6 +739,9 @@
 }
 .footer-desc-title h5{
   color: #197056;
+  font-weight: 600;
+  font-size: small;
+  font-weight: bold;
 }
 .abt-links{
   display: flex;
@@ -745,6 +749,7 @@
   gap: .8vh;
 }
 .abt-links a{
+  font-size: 2vh;
   text-decoration: none ;
   color: black;
 }
